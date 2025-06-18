@@ -16,6 +16,11 @@
     <version>1.0-SNAPSHOT</version>
     <description>Demo project for Spring Boot</description>
 
+    <!-- JAVA版本 -->
+    <properties>
+        <java.version>8</java.version>
+    </properties>
+
     <!-- Spring Cloud 版本 BOM 管理 -->
     <dependencyManagement>
         <dependencies>

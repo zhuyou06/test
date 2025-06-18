@@ -23,6 +23,7 @@
 
 ## swagger ##
 http://localhost:8081/swagger-ui/index.html
+沒有提供初始化資料，可透過swagger來完成CRUD的動作
 
 ## h2 ##
 http://localhost:8081/h2

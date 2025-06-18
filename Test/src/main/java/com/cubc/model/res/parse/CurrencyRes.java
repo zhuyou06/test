@@ -5,14 +5,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class GetCoinDeskRes {
-    private String updatedTimeTW;
-    private String chartName;
-    private List<CurrencyRes> currencyResList;
+public class CurrencyRes {
+    private String code;
+    private String name;
+    private String symbol;
+    private String rate;
+    private String description;
+    private double rateFloat;
 }
